@@ -1,4 +1,7 @@
-const resultPrompt = +prompt('Выберите один из пунктов:\n1. Автомобиль\n2. Мотоцикл\n3. Велосипед');
+const resultPrompt = +prompt(`Выберите один из пунктов: 
+    1. Автомобиль  
+    2. Мотоцикл 
+    3. Велосипед`);
 
 switch (resultPrompt){
     case 1: 
@@ -11,6 +14,5 @@ switch (resultPrompt){
         alert('Велосипед!');
         break;
     default:
-        alert('Такого варианта нет!');
-    
+        alert('Такого варианта нет!');    
 }
